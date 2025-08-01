@@ -109,6 +109,55 @@
 .no {
   display: block
 }
-.navbar-nav ul a active{
-    color: #054d9a;
+.navbar-nav>li {
+    float: left;
 }
+.navbar>li>a.active{
+    color: #054d9a !important;
+}
+.navbar>li>a.act{
+    font-weight: 600;
+    color: #6f6f6fd6;
+    padding: 30px 15px;
+}
+.navbar>li>a{
+    font-weight: 600;
+    color: #6f6f6fd6;
+    padding: 30px 15px;
+    text-decoration: none;
+}
+.navbar>li>a.act:hover{
+    font-weight: 600;
+    color:#111111 !important;
+    padding: 30px 15px;
+
+}
+.collapse:not(hide){
+    display: show;
+}
+.contait{
+    min-width: 1200px;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
