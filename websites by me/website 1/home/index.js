@@ -1,1 +1,0 @@
-let pic = ["https://www.bhavnagardcb.in/uploads/profile/aafc882f957a012ef6518921e73e6703.jpg"]
