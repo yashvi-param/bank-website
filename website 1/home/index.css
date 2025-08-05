@@ -139,6 +139,19 @@
     min-width: 1200px;
     border: 1px solid red;
 }
+.navbar-nav a{
+    font-size:12px;
+    font-weight: 600;
+    color: #6f6f6f;
+}
+.navbar-nav .active{
+    color: #054d9a !important;
+}
+.navbar-nav .dropdown a{
+    font-size:12px;
+    font-weight: 600;
+    color: #6f6f6f;
+}
 
 
 
