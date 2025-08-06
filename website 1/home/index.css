@@ -56,18 +56,21 @@
     overflow: hidden;
     overflow: clip;
 }
+
 .container{
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
+
 .bank1 img{
     width: 515px;
     height: auto;
     max-width: unset !important;
     margin-left:-78px;
 }
+
 .bank2{
      margin-right:50px; 
      display: inline-block;
@@ -76,6 +79,7 @@
     margin-left: 73px;
     margin-top: 20px;
 }
+
 .bank3{
      margin-right:50px; 
      /* display: inline-block; */
@@ -84,61 +88,66 @@
     /* margin-left: 73px; */
     margin-top: 20px;
 }
+
 .mail{
     font-size: 13px;
     color: #555555;
 }
+
 .fa-envelope{
     color: #054d9a;
 }
+
 .dbd {
     position: relative;
     top: 20px;
 }
+
 .bank2>li {
     display: inline-block;
     padding-right: 5px;
     padding-left: 5px;
 }
+
 .fa-envelope{
     color: #054d9a;
 }
+
 .fa-phone{
      color: #054d9a;
 }
+
 .no {
   display: block
 }
+
 .navbar-nav>li {
     float: left;
 }
+
 .navbar>li>a.active{
     color: #054d9a !important;
 }
+
 .navbar>li>a.act{
     font-weight: 600;
     color: #6f6f6fd6;
     padding: 30px 15px;
 }
+
 .navbar>li>a{
     font-weight: 600;
     color: #6f6f6fd6;
     padding: 30px 15px;
     text-decoration: none;
 }
+
 .navbar>li>a.act:hover{
     font-weight: 600;
     color:#111111 !important;
     padding: 30px 15px;
+}
 
-}
-.collapse:not(hide){
-    display: show;
-}
-.contait{
-    min-width: 1200px;
-    border: 1px solid red;
-}
 .navbar-nav a{
     font-size:12px;
     font-weight: 600;
@@ -152,6 +161,15 @@
     font-weight: 600;
     color: #6f6f6f;
 }
+@media (max-width: 992px) {
+    nav.navbar{
+        display: inline-block;
+        margin-right: -200px;
+        margin-top: 10px;
+    }
+}
+
+
 
 
 
